@@ -1,0 +1,20 @@
+name: Build
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout du code source
+      uses: actions/checkout@v2
+
+    - name: Installer NASM
+      run: sudo apt-get update && sudo apt-get install -y nasm
+
+    - name: Compiler le code avec make
+      run: make
