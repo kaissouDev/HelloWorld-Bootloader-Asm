@@ -2,6 +2,8 @@
 
 A simple bootloader coded in assembly by kaissouDev!
 
+[![Build](https://github.com/kaissouDev/HelloWorld-Bootloader-Asm/actions/workflows/build.yml/badge.svg)](https://github.com/kaissouDev/HelloWorld-Bootloader-Asm/actions/workflows/build.yml)
+
 ![image](https://github.com/kaissouDev/HelloWorld-Bootloader-Asm/assets/93447388/34e48a5b-ecf1-42f7-9af3-8385063e37e5)
 
 # How To Compile?
