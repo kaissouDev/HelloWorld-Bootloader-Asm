@@ -13,8 +13,8 @@ jobs:
     - name: Checkout du code source
       uses: actions/checkout@v2
 
-    - name: Installer NASM
+    - name: Install NASM
       run: sudo apt-get update && sudo apt-get install -y nasm
 
-    - name: Compiler le code avec make
-      run: make
+    - name: Compile
+      run: make compile
